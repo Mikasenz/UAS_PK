@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "total_queries": 10,
+    "created_at": "2025-06-25T12:55:50.335758",
+    "description": "Test queries untuk evaluasi sistem retrieval kasus hukum",
+    "version": "fixed_enhanced"
+  },
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query_text": "aksi terorisme di pusat perbelanjaan jakarta",
+      "description": "Query aksi terorisme di lokasi publik",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_109_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_21_Juni_2023__Penuntut_Umum_ARIF_SUSANTO__SH__MHTerdakwa_MOH__SYAIFULLAH_A__SAHABA_Alias_MAMAT_Alias_MAT_HERDIANSYSAHABA",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_992_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Februari_2023__Penuntut_Umum_1_IKA_SYAFITRY_SALIM__SH___MH_2_UMI_HANINDYA_KUSUMA_SH3_AGUS_JULIANTO_PURNOMO__SH4n_MUSA"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q002",
+      "query_text": "penangkapan pelaku terorisme oleh densus 88",
+      "description": "Query penangkapan pelaku oleh aparat",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1172_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_ERWIN_INDRAPUTRA__SH__MH2_TEDDY_IRAWAN_SH3_JUWITA_KAYANA__S_H___M_H_4_KHAREZA_MOKH_MIJAR",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_545_Pid_Sus_2023_PN_JKT_TIM_Tanggal_11_Oktober_2023__Penuntut_Umum_MALINI_SIANTURI__SHTerdakwa_DIKA_GARNAKA_alias_HAMZAH_alias_ABU_USAMAH_alias_PEMBURA__Alm"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q003",
+      "query_text": "bom rakitan meledak di rumah ibadah",
+      "description": "Query peledakan bom rakitan",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_635_Pid_Sus_2023_PN_JKT_TIM_Tanggal_18_Desember_2023__Penuntut_Umum_ARY_PRATAMA__SHTerdakwa_INDRA_SYAHPUTRA_Alias_INDRA_ONO_Alias_ONO_KAY_Alias_ICAN_AN__Alm",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1206_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_6_April_2023__Penuntut_Umum_1_HASBUDDIN_B_PASENG__SH2_HEVBEN__SH3_MUCHAMAD_ADYANSYAH__SH__MH4_PONTI_LUKWINANTI_SHARNAMA"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q004",
+      "query_text": "radikalisasi di lingkungan pendidikan",
+      "description": "Query penyebaran paham radikal",
+      "ground_truth": [
+        "case_2025_TK1_Putusan_PA_SAMPANG_Nomor_776_Pdt_G_2025_PA_Spg_Tanggal_12_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2025_TK1_Putusan_PA_TILAMUTA_Nomor_82_Pdt_P_2025_PA_Tlm_Tanggal_12_Juni_2025__Pemohon_melawan_Termohon"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q005",
+      "query_text": "jaringan teroris internasional masuk ke indonesia",
+      "description": "Query jaringan teroris lintas negara",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_991_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_UMI_HANINDYA_KUSUMA_SH2_IKA_SYAFITRY_SALIM__SH___MH_3_AGUS_JULIANTO_PURNOMO__SH4_AZCHTIAR",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_231_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_2_Agustus_2023__Penuntut_Umum_ERWIN_INDRAPUTRA__SH___MHTerdakwa_TEUKU_MAULIZANSYAH_RAMLI_alias_MAULIDAN_alias_PON_I_TAEB"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q006",
+      "query_text": "penggerebekan markas kelompok teror oleh polisi",
+      "description": "Query penggerebekan markas teroris",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_527_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_BERLIAN_D_NAINGGOLAN__SHTerdakwa_SYAIFULLAH_RIFAI_Alias_SYAIFULLAH_RIFAI_Alias_SAYFRAFII_",
+        "case_2025_TK1_Putusan_PA_POLEWALI_Nomor_325_Pdt_G_2025_PA_Pwl_Tanggal_12_Juni_2025__Penggugat_melawan_Tergugat"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q007",
+      "query_text": "persidangan pelaku bom bunuh diri",
+      "description": "Query proses hukum pelaku bom bunuh diri",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_74_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_JAYA_SIAHAAN___SH_Terdakwa_KHOIRRUDDIN_Alias_JIHAN_Bin_M__SAIFUL_ANWARY",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_637_Pid_Sus_2023_PN_JKT_TIM_Tanggal_15_Nopember_2023__Penuntut_Umum_AMRI_BAYAKTA__SHTerdakwa_WAHYUDI__alias_JONI_alias_GUNTUR_alias_FAJAR_Bin_ABDUL_PANUT"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q008",
+      "query_text": "putusan hakim terhadap kasus terorisme",
+      "description": "Query vonis hakim atas kasus teror",
+      "ground_truth": [
+        "case_2025_TK1_Putusan_PA_TILAMUTA_Nomor_73_Pdt_P_2025_PA_Tlm_Tanggal_12_Juni_2025__Pemohon_melawan_Termohon",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_73_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_HARDINIYANTY__SH__MHTerdakwa_LUKMAN_YUNUS_Als_UKO_Als_ABU_SYUKRON_Bin_IDAM_YUNUS"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q009",
+      "query_text": "pendanaan kelompok terorisme dari luar negeri",
+      "description": "Query aliran dana kelompok teror",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_210_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_12_Juli_2023__Penuntut_Umum_MUHAMMAD_FAHRUL__SHTerdakwa_SUTANTO_Alias_AWAN_Alias_EKO_Alias_AHMAD_SYAKIR_Bin_SANIMAN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1105_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_AMRIL_ABDI__SH2_REZA_OKTAVIAN__S_H___M_H_3_HOTMAIDA_SH4_NANDA_KARMILA__SH5_OCTAVIASAKWID"
+      ],
+      "num_ground_truth": 2
+    },
+    {
+      "query_id": "Q010",
+      "query_text": "rekrutmen anggota baru oleh organisasi teroris",
+      "description": "Query perekrutan jaringan teror",
+      "ground_truth": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1165_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_AGUS_TRI_HARTONO__S_H___M_Hum_2_BERLIAN_D_NAINGGOLAN__SH__MH3_DWI_AGUS_SETYONINGRUGADMAN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_528_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_DWI_AGUS_SETYONINGRUM__SH__MHTerdakwa_RAMANDA_PRATAMA_alias_ABU_KENZI_alias_KURAMA_SUARDI"
+      ],
+      "num_ground_truth": 2
+    }
+  ]
+}

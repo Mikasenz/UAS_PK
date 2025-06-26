@@ -1,0 +1,106 @@
+================================================================================
+📊 TAHAP 5 - MODEL EVALUATION - COMPREHENSIVE REPORT
+================================================================================
+Generated: 2025-06-26 08:30:43
+Evaluation K-Value: 10
+Models Evaluated: ['tfidf', 'bert', 'svm', 'naive_bayes']
+
+🎯 EXECUTIVE SUMMARY
+--------------------------------------------------
+🏆 Best Performing Model: BERT
+📈 Best F1-Score: 0.067
+📝 Total Queries Evaluated: 10
+
+📊 PERFORMANCE ANALYSIS
+--------------------------------------------------
+
+🔍 TFIDF SYSTEM:
+   Precision: 0.020 ± 0.040
+   Recall:    0.100 ± 0.200
+   F1-Score:  0.033 ± 0.067
+   Accuracy:  0.020
+   Assessment: ⚠️ POOR
+
+🔍 BERT SYSTEM:
+   Precision: 0.040 ± 0.049
+   Recall:    0.200 ± 0.245
+   F1-Score:  0.067 ± 0.082
+   Accuracy:  0.040
+   Assessment: ⚠️ POOR
+
+🔍 SVM SYSTEM:
+   Precision: 0.020 ± 0.040
+   Recall:    0.100 ± 0.200
+   F1-Score:  0.033 ± 0.067
+   Accuracy:  0.020
+   Assessment: ⚠️ POOR
+
+🔍 NAIVE_BAYES SYSTEM:
+   Precision: 0.020 ± 0.040
+   Recall:    0.100 ± 0.200
+   F1-Score:  0.033 ± 0.067
+   Accuracy:  0.020
+   Assessment: ⚠️ POOR
+
+
+🔍 FAILURE ANALYSIS
+--------------------------------------------------
+
+🔧 TFIDF FAILURES:
+   Total Failures: 0
+   Low Performance: 8
+   Example Issues:
+     - Q001: Low F1: 0.000
+     - Q002: Low F1: 0.000
+
+🔧 BERT FAILURES:
+   Total Failures: 0
+   Low Performance: 6
+   Example Issues:
+     - Q002: Low F1: 0.000
+     - Q003: Low F1: 0.000
+
+🔧 SVM FAILURES:
+   Total Failures: 0
+   Low Performance: 8
+   Example Issues:
+     - Q001: Low F1: 0.000
+     - Q002: Low F1: 0.000
+
+🔧 NAIVE_BAYES FAILURES:
+   Total Failures: 0
+   Low Performance: 8
+   Example Issues:
+     - Q001: Low F1: 0.000
+     - Q002: Low F1: 0.000
+
+
+📋 DETAILED METRICS TABLE
+--------------------------------------------------
+      Model  Queries Precision Recall F1-Score Accuracy  Std_Precision  Std_Recall   Std_F1
+      TFIDF       10     0.020  0.100    0.033    0.020        0.04000    0.200000 0.066667
+       BERT       10     0.040  0.200    0.067    0.040        0.04899    0.244949 0.081650
+        SVM       10     0.020  0.100    0.033    0.020        0.04000    0.200000 0.066667
+NAIVE_BAYES       10     0.020  0.100    0.033    0.020        0.04000    0.200000 0.066667
+
+
+💡 RECOMMENDATIONS
+--------------------------------------------------
+🔧 CRITICAL IMPROVEMENTS NEEDED:
+   - Increase dataset size (current: <200 cases)
+   - Enhance vocabulary with legal domain terms
+   - Improve text preprocessing for legal documents
+   - Consider ensemble methods
+
+
+🔬 TECHNICAL NOTES
+--------------------------------------------------
+   - Evaluation K-Value: 10
+   - Dataset Size: Small (<200 cases)
+   - Domain: Indonesian Legal Documents
+   - Metrics: Standard IR metrics (P, R, F1)
+   - Expected F1 Range: 0.15-0.35 for small legal datasets
+
+================================================================================
+📊 END OF EVALUATION REPORT
+================================================================================

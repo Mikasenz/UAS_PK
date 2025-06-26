@@ -1,0 +1,45 @@
+Model,K,Queries_Evaluated,Avg_Precision,Avg_Recall,Avg_F1,Avg_Accuracy,Std_Precision,Std_Recall,Std_F1,Timestamp,Query_ID,Query_Text,Precision,Recall,F1,Accuracy,TP,FP,FN,Retrieved_Count,Relevant_Count
+tfidf,10,10.0,0.02,0.1,0.03333333333333334,0.02,0.04,0.20000000000000004,0.06666666666666668,2025-06-26T07:40:42.188800,,,,,,,,,,,
+bert,10,10.0,0.04,0.2,0.06666666666666668,0.04,0.04898979485566357,0.2449489742783178,0.08164965809277261,2025-06-26T07:40:42.188814,,,,,,,,,,,
+svm,10,10.0,0.02,0.1,0.03333333333333334,0.02,0.04,0.20000000000000004,0.06666666666666668,2025-06-26T07:40:42.188819,,,,,,,,,,,
+naive_bayes,10,10.0,0.02,0.1,0.03333333333333334,0.02,0.04,0.20000000000000004,0.06666666666666668,2025-06-26T07:40:42.188825,,,,,,,,,,,
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188839,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188848,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188853,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188858,Q004,radikalisasi di lingkungan pendidikan,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188863,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188868,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188873,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188878,Q008,putusan hakim terhadap kasus terorisme,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188890,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+tfidf,10,,,,,,,,,2025-06-26T07:40:42.188895,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188904,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188908,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188913,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188918,Q004,radikalisasi di lingkungan pendidikan,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188923,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188927,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188932,Q007,persidangan pelaku bom bunuh diri,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188938,Q008,putusan hakim terhadap kasus terorisme,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188942,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+bert,10,,,,,,,,,2025-06-26T07:40:42.188947,Q010,rekrutmen anggota baru oleh organisasi teroris,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188954,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188959,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188964,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188969,Q004,radikalisasi di lingkungan pendidikan,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188974,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188979,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188984,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188989,Q008,putusan hakim terhadap kasus terorisme,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188993,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+svm,10,,,,,,,,,2025-06-26T07:40:42.188998,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189006,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189011,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189015,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189019,Q004,radikalisasi di lingkungan pendidikan,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189024,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189028,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189033,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189038,Q008,putusan hakim terhadap kasus terorisme,0.1,0.5,0.16666666666666669,0.1,1.0,9.0,1.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189043,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0
+naive_bayes,10,,,,,,,,,2025-06-26T07:40:42.189047,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,10.0,2.0,10.0,2.0

@@ -1,0 +1,45 @@
+Model,K,Queries_Evaluated,Avg_Precision,Avg_Recall,Avg_F1,Avg_Accuracy,Std_Precision,Std_Recall,Std_F1,Timestamp,Query_ID,Query_Text,Precision,Recall,F1,Accuracy,TP,FP,FN,Retrieved_Count,Relevant_Count
+tfidf,5,10.0,0.02,0.05,0.028571428571428574,0.02,0.06,0.15000000000000002,0.08571428571428572,2025-06-26T07:40:39.480311,,,,,,,,,,,
+bert,5,10.0,0.04,0.1,0.05714285714285715,0.04,0.08,0.20000000000000004,0.11428571428571428,2025-06-26T07:40:39.480327,,,,,,,,,,,
+svm,5,10.0,0.02,0.05,0.028571428571428574,0.02,0.06,0.15000000000000002,0.08571428571428572,2025-06-26T07:40:39.480334,,,,,,,,,,,
+naive_bayes,5,10.0,0.02,0.05,0.028571428571428574,0.02,0.06,0.15000000000000002,0.08571428571428572,2025-06-26T07:40:39.480339,,,,,,,,,,,
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480348,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480357,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480363,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480369,Q004,radikalisasi di lingkungan pendidikan,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480376,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480382,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480388,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480395,Q008,putusan hakim terhadap kasus terorisme,0.2,0.5,0.28571428571428575,0.2,1.0,4.0,1.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480401,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+tfidf,5,,,,,,,,,2025-06-26T07:40:39.480407,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480413,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480419,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480425,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480431,Q004,radikalisasi di lingkungan pendidikan,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480437,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480442,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480448,Q007,persidangan pelaku bom bunuh diri,0.2,0.5,0.28571428571428575,0.2,1.0,4.0,1.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480454,Q008,putusan hakim terhadap kasus terorisme,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480459,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+bert,5,,,,,,,,,2025-06-26T07:40:39.480465,Q010,rekrutmen anggota baru oleh organisasi teroris,0.2,0.5,0.28571428571428575,0.2,1.0,4.0,1.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480472,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480479,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480484,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480490,Q004,radikalisasi di lingkungan pendidikan,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480495,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480501,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480506,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480512,Q008,putusan hakim terhadap kasus terorisme,0.2,0.5,0.28571428571428575,0.2,1.0,4.0,1.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480518,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+svm,5,,,,,,,,,2025-06-26T07:40:39.480524,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480529,Q001,aksi terorisme di pusat perbelanjaan jakarta,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480535,Q002,penangkapan pelaku terorisme oleh densus 88,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480541,Q003,bom rakitan meledak di rumah ibadah,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480547,Q004,radikalisasi di lingkungan pendidikan,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480552,Q005,jaringan teroris internasional masuk ke indonesia,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480558,Q006,penggerebekan markas kelompok teror oleh polisi,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480563,Q007,persidangan pelaku bom bunuh diri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480569,Q008,putusan hakim terhadap kasus terorisme,0.2,0.5,0.28571428571428575,0.2,1.0,4.0,1.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480575,Q009,pendanaan kelompok terorisme dari luar negeri,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
+naive_bayes,5,,,,,,,,,2025-06-26T07:40:39.480581,Q010,rekrutmen anggota baru oleh organisasi teroris,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,2.0
