@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "generated_at": "2025-06-26T07:30:40.037169",
+    "total_predictions": 10,
+    "methods_used": [
+      "majority",
+      "weighted"
+    ],
+    "version": "solution_reuse_v1"
+  },
+  "results": [
+    {
+      "query_id": "DEMO_001",
+      "query": "aksi terorisme dengan peledakan bom di terminal bus kota",
+      "method": "weighted",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:1. nama lengkap: aris budianto alias riko alias bahar alias sarah aliasnirina zein bin sudarsono;2. tempat lahir: bandar lampung;3. umur/tanggal lahir: 46/15 april 1977;4. jenis kelamin: laki-lak;i5. kebangsaan: indonesia;6. tempat tinggal: jl. tamin gang abdul rahman no. 57 lingkungan i rt.05 kel. sukajawa baru kecamatan tanjungjarang barat kota bandar lampung(k",
+      "expected_outcome": "Terbukti bersalah, pidana penjara seumur hidup",
+      "confidence": 0.07259115996013257,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_555_Pid_Sus_2023_PN_JKT_TIM_Tanggal_13_Desember_2023__Penuntut_Umum_ERWIN_INDRAPUTRA__SH___MHTerdakwa_ARIS_BUDIANTO_alias_RIKO_alias_BAHAR_alias_SARAHARSONO",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_545_Pid_Sus_2023_PN_JKT_TIM_Tanggal_11_Oktober_2023__Penuntut_Umum_MALINI_SIANTURI__SHTerdakwa_DIKA_GARNAKA_alias_HAMZAH_alias_ABU_USAMAH_alias_PEMBURA__Alm",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_544_Pid_Sus_2023_PN_JKT_TIM_Tanggal_13_Nopember_2023__Penuntut_Umum_MALINI_SIANTURI__SHTerdakwa_MUHAMMAD_BUDI_SATRIA_Alias_BUDI__alias_KARI__alias_JUNH__Alm",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_528_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_DWI_AGUS_SETYONINGRUM__SH__MHTerdakwa_RAMANDA_PRATAMA_alias_ABU_KENZI_alias_KURAMA_SUARDI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_8_Pid_Sus_2023_PN_Jkt_Brt_Tanggal_13_April_2023__Penuntut_Umum_1_ANDI_JEFRI_ARDIN__SH_MH2_JAHRUDIN__SH3_DENRI_KASWORO__S_H_4_ZULKIFLI__SH__MH5_KHAREZA_SOLEH"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_001",
+      "query": "aksi terorisme dengan peledakan bom di terminal bus kota",
+      "method": "majority",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:1. nama lengkap: aris budianto alias riko alias bahar alias sarah aliasnirina zein bin sudarsono;2. tempat lahir: bandar lampung;3. umur/tanggal lahir: 46/15 april 1977;4. jenis kelamin: laki-lak;i5. kebangsaan: indonesia;6. tempat tinggal: jl. tamin gang abdul rahman no. 57 lingkungan i rt.05 kel. sukajawa baru kecamatan tanjungjarang barat kota bandar lampung(k",
+      "expected_outcome": "Terbukti bersalah, pidana penjara seumur hidup",
+      "confidence": 1.0,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_555_Pid_Sus_2023_PN_JKT_TIM_Tanggal_13_Desember_2023__Penuntut_Umum_ERWIN_INDRAPUTRA__SH___MHTerdakwa_ARIS_BUDIANTO_alias_RIKO_alias_BAHAR_alias_SARAHARSONO",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_545_Pid_Sus_2023_PN_JKT_TIM_Tanggal_11_Oktober_2023__Penuntut_Umum_MALINI_SIANTURI__SHTerdakwa_DIKA_GARNAKA_alias_HAMZAH_alias_ABU_USAMAH_alias_PEMBURA__Alm",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_544_Pid_Sus_2023_PN_JKT_TIM_Tanggal_13_Nopember_2023__Penuntut_Umum_MALINI_SIANTURI__SHTerdakwa_MUHAMMAD_BUDI_SATRIA_Alias_BUDI__alias_KARI__alias_JUNH__Alm",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_528_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_DWI_AGUS_SETYONINGRUM__SH__MHTerdakwa_RAMANDA_PRATAMA_alias_ABU_KENZI_alias_KURAMA_SUARDI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_8_Pid_Sus_2023_PN_Jkt_Brt_Tanggal_13_April_2023__Penuntut_Umum_1_ANDI_JEFRI_ARDIN__SH_MH2_JAHRUDIN__SH3_DENRI_KASWORO__S_H_4_ZULKIFLI__SH__MH5_KHAREZA_SOLEH"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_002",
+      "query": "penangkapan anggota kelompok teroris yang merencanakan serangan terhadap aparat",
+      "method": "weighted",
+      "predicted_solution": "amar putusan dibawah ini;menimbang, bahwa oleh karena terdakwa dijatuhi pidana danterdakwa sebelumnya tidak ada mengajukan permohonan pembebasan daripembayaran biaya perkara, maka berdasarkan ketentuan pasal 222 kuhapkepada terdakwa dibebankan untuk membayar biaya perkara yang besarnyaakan ditentukan dalam amar putusan ini;menimbang, bahwa sebelum majelis menjatuhkan pidana kepadaterdakwa, terlebih dahulu akan dipertimbangkan hal-hal yang memberatkandan yang meringankan hukuman bagi terdakwa seb",
+      "expected_outcome": "Terbukti bersalah, pidana penjara",
+      "confidence": 0.05679535648337879,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_8_Pid_Sus_2023_PN_Jkt_Brt_Tanggal_13_April_2023__Penuntut_Umum_1_ANDI_JEFRI_ARDIN__SH_MH2_JAHRUDIN__SH3_DENRI_KASWORO__S_H_4_ZULKIFLI__SH__MH5_KHAREZA_SOLEH",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_629_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_HERRY_WIYANTO__SH__M_HumTerdakwa_TAJUDIN_Als_PAK_HAJI_TAJUDIN_Als_PAK_TEJE_Als_PAKWA_URA"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'; ⚠️ Extra 'bebas'"
+    },
+    {
+      "query_id": "DEMO_002",
+      "query": "penangkapan anggota kelompok teroris yang merencanakan serangan terhadap aparat",
+      "method": "majority",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:nama lengkap:terdakwa bin suharkatib intan alm; tempat lahir:silantai; umur/tanggal lahir:39 tahun / 03 oktober 1983; jenis kelamin:laki-laki; kebangsaan:indonesia; tempat tinggal:jorong pasar pulau punjung, nagari/desaempat koto pulau punjung, kec. pulaupunjung, kab. dharmasraya, prov. sumaterabarat; agama:islam; pekerjaan:petani/tukang servis alat elektronik;te",
+      "expected_outcome": "Terbukti bersalah, pidana penjara",
+      "confidence": 1.0,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_8_Pid_Sus_2023_PN_Jkt_Brt_Tanggal_13_April_2023__Penuntut_Umum_1_ANDI_JEFRI_ARDIN__SH_MH2_JAHRUDIN__SH3_DENRI_KASWORO__S_H_4_ZULKIFLI__SH__MH5_KHAREZA_SOLEH",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_629_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_HERRY_WIYANTO__SH__M_HumTerdakwa_TAJUDIN_Als_PAK_HAJI_TAJUDIN_Als_PAK_TEJE_Als_PAKWA_URA"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_003",
+      "query": "radikalisasi mahasiswa melalui media sosial oleh jaringan teror",
+      "method": "weighted",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:nama lengkap:terdakwa bin suharkatib intan alm; tempat lahir:silantai; umur/tanggal lahir:39 tahun / 03 oktober 1983; jenis kelamin:laki-laki; kebangsaan:indonesia; tempat tinggal:jorong pasar pulau punjung, nagari/desaempat koto pulau punjung, kec. pulaupunjung, kab. dharmasraya, prov. sumaterabarat; agama:islam; pekerjaan:petani/tukang servis alat elektronik;te",
+      "expected_outcome": "Terbukti bersalah, pidana penjara dan rehabilitasi",
+      "confidence": 0.02372185889750455,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_73_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_HARDINIYANTY__SH__MHTerdakwa_LUKMAN_YUNUS_Als_UKO_Als_ABU_SYUKRON_Bin_IDAM_YUNUS",
+        "case_2025_TK1_Putusan_PA_TILAMUTA_Nomor_81_Pdt_P_2025_PA_Tlm_Tanggal_12_Juni_2025__Pemohon_melawan_Termohon",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_843_Pid_Sus_2022_PN_Jkt_Tim_Tanggal_8_Februari_2023__Penuntut_Umum_RIFQI_ARIALFA_SH_MHTerdakwa_ADI_SUPRIYADI_Als__DAFA_Als__ANAS_Als__ADI_USAMA_Als__BONIMIN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_003",
+      "query": "radikalisasi mahasiswa melalui media sosial oleh jaringan teror",
+      "method": "majority",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:nama lengkap:terdakwa bin suharkatib intan alm; tempat lahir:silantai; umur/tanggal lahir:39 tahun / 03 oktober 1983; jenis kelamin:laki-laki; kebangsaan:indonesia; tempat tinggal:jorong pasar pulau punjung, nagari/desaempat koto pulau punjung, kec. pulaupunjung, kab. dharmasraya, prov. sumaterabarat; agama:islam; pekerjaan:petani/tukang servis alat elektronik;te",
+      "expected_outcome": "Terbukti bersalah, pidana penjara dan rehabilitasi",
+      "confidence": 1.0,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_73_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_HARDINIYANTY__SH__MHTerdakwa_LUKMAN_YUNUS_Als_UKO_Als_ABU_SYUKRON_Bin_IDAM_YUNUS",
+        "case_2025_TK1_Putusan_PA_TILAMUTA_Nomor_81_Pdt_P_2025_PA_Tlm_Tanggal_12_Juni_2025__Pemohon_melawan_Termohon",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_843_Pid_Sus_2022_PN_Jkt_Tim_Tanggal_8_Februari_2023__Penuntut_Umum_RIFQI_ARIALFA_SH_MHTerdakwa_ADI_SUPRIYADI_Als__DAFA_Als__ANAS_Als__ADI_USAMA_Als__BONIMIN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_004",
+      "query": "pengiriman dana dari luar negeri untuk mendanai aksi teror di indonesia",
+      "method": "weighted",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:nama lengkap:terdakwa bin suharkatib intan alm; tempat lahir:silantai; umur/tanggal lahir:39 tahun / 03 oktober 1983; jenis kelamin:laki-laki; kebangsaan:indonesia; tempat tinggal:jorong pasar pulau punjung, nagari/desaempat koto pulau punjung, kec. pulaupunjung, kab. dharmasraya, prov. sumaterabarat; agama:islam; pekerjaan:petani/tukang servis alat elektronik;te",
+      "expected_outcome": "Terbukti bersalah, pidana penjara dan perampasan dana",
+      "confidence": 0.0485955368614707,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_73_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_HARDINIYANTY__SH__MHTerdakwa_LUKMAN_YUNUS_Als_UKO_Als_ABU_SYUKRON_Bin_IDAM_YUNUS",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1171_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_HEVBEN__SH2_HASBUDDIN_B_PASENG__SH3_MUCHAMAD_ADYANSYAH__SH__MH4_DWI_INDAH_KARTIKA_EGIMIN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_631_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_ANDI_JEFRI_ARDIN__S_H_Terdakwa_DIAN_YUDI_SAPUTRA_alias_ABU_HANIF_Bin_WAHYU_ILAHI__Alm"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_004",
+      "query": "pengiriman dana dari luar negeri untuk mendanai aksi teror di indonesia",
+      "method": "majority",
+      "predicted_solution": "mengadili perkara pidana denganacara pemeriksaan biasa dalam tingkat pertama menjatuhkan putusan sebagaiberikut dalam perkara terdakwa:nama lengkap:terdakwa bin suharkatib intan alm; tempat lahir:silantai; umur/tanggal lahir:39 tahun / 03 oktober 1983; jenis kelamin:laki-laki; kebangsaan:indonesia; tempat tinggal:jorong pasar pulau punjung, nagari/desaempat koto pulau punjung, kec. pulaupunjung, kab. dharmasraya, prov. sumaterabarat; agama:islam; pekerjaan:petani/tukang servis alat elektronik;te",
+      "expected_outcome": "Terbukti bersalah, pidana penjara dan perampasan dana",
+      "confidence": 1.0,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_73_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_10_Mei_2023__Penuntut_Umum_HARDINIYANTY__SH__MHTerdakwa_LUKMAN_YUNUS_Als_UKO_Als_ABU_SYUKRON_Bin_IDAM_YUNUS",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1171_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_HEVBEN__SH2_HASBUDDIN_B_PASENG__SH3_MUCHAMAD_ADYANSYAH__SH__MH4_DWI_INDAH_KARTIKA_EGIMIN",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_631_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_ANDI_JEFRI_ARDIN__S_H_Terdakwa_DIAN_YUDI_SAPUTRA_alias_ABU_HANIF_Bin_WAHYU_ILAHI__Alm"
+      ],
+      "match_score": 0.2,
+      "match_explanation": "❌ Missing 'terbukti'; ❌ Missing 'penjara'; ✅ Found 'pidana'"
+    },
+    {
+      "query_id": "DEMO_005",
+      "query": "penggerebekan tempat persembunyian kelompok teroris oleh densus 88",
+      "method": "weighted",
+      "predicted_solution": "mengadili perkara pidanadengan acara pemeriksaan biasa dalam tingkat pertama menjatuhkanputusan sebagai berikut dalam perkara terdakwa: nama lengkap: herliansyah als andi baso als herlybin sultanitempat lahir: begaumur/tanggal lahir: 25/10 agustus 1997jenis kelamin: laki-lakikebangsaan: indonesia tempat tinggal: desa lape kec. poso pesisir kab. poso provinsisultengagama: islam pekerjaan: wiraswastaterdakwa ditangkap tanggal 14 me1 2022 terdakwa ditahan dalam tahanan rutan oleh: 1. penyidik sejak",
+      "expected_outcome": "Penangkapan berhasil, proses hukum berjalan",
+      "confidence": 0.05149126451285311,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_629_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_HERRY_WIYANTO__SH__M_HumTerdakwa_TAJUDIN_Als_PAK_HAJI_TAJUDIN_Als_PAK_TEJE_Als_PAKWA_URA",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_528_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_DWI_AGUS_SETYONINGRUM__SH__MHTerdakwa_RAMANDA_PRATAMA_alias_ABU_KENZI_alias_KURAMA_SUARDI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO"
+      ],
+      "match_score": 0.0,
+      "match_explanation": "⚠️ Extra 'pidana'"
+    },
+    {
+      "query_id": "DEMO_005",
+      "query": "penggerebekan tempat persembunyian kelompok teroris oleh densus 88",
+      "method": "majority",
+      "predicted_solution": "mengadili perkara pidanadengan acara pemeriksaan biasa dalam tingkat pertama menjatuhkanputusan sebagai berikut dalam perkara terdakwa: nama lengkap: herliansyah als andi baso als herlybin sultanitempat lahir: begaumur/tanggal lahir: 25/10 agustus 1997jenis kelamin: laki-lakikebangsaan: indonesia tempat tinggal: desa lape kec. poso pesisir kab. poso provinsisultengagama: islam pekerjaan: wiraswastaterdakwa ditangkap tanggal 14 me1 2022 terdakwa ditahan dalam tahanan rutan oleh: 1. penyidik sejak",
+      "expected_outcome": "Penangkapan berhasil, proses hukum berjalan",
+      "confidence": 1.0,
+      "top_cases": [
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_71_Pid_Sus_2023_PN_Jkt_Tim_Tanggal_17_Mei_2023__Penuntut_Umum_TEDDY_IRAWAN___SH___MH_Terdakwa_HERLIANSYAH_als_ANDI_BASO_als_HERLY_BIN_SULTANNI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1160_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_30_Maret_2023__Penuntut_Umum_1_SUHARTATI__SH__MH2_MALINI_SIANTURI_SH3_Dr__HERRY_WIYANTO__SH_M_Hum4_NURHAYATI_ULFIAN_ALM",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_629_Pid_Sus_2023_PN_JKT_TIM_Tanggal_14_Desember_2023__Penuntut_Umum_HERRY_WIYANTO__SH__M_HumTerdakwa_TAJUDIN_Als_PAK_HAJI_TAJUDIN_Als_PAK_TEJE_Als_PAKWA_URA",
+        "case_2023_TK1_Putusan_PN_JAKARTA_TIMUR_Nomor_528_Pid_Sus_2023_PN_JKT_TIM_Tanggal_19_Oktober_2023__Penuntut_Umum_DWI_AGUS_SETYONINGRUM__SH__MHTerdakwa_RAMANDA_PRATAMA_alias_ABU_KENZI_alias_KURAMA_SUARDI",
+        "case_2023_TK1_Putusan_PN_JAKARTA_BARAT_Nomor_1107_Pid_Sus_2022_PN_Jkt_Brt_Tanggal_16_Maret_2023__Penuntut_Umum_1_ARIF_SUSANTO__SH__MH2_ARY_PRATAMA__SH3_AMRI_BAYAKTA__S_H_4_MUHAMAD_RAMLI__SH5_WULA_WARNO"
+      ],
+      "match_score": 0.0,
+      "match_explanation": "⚠️ Extra 'pidana'"
+    }
+  ]
+}
