@@ -69,7 +69,7 @@ Sebelum menjalankan aplikasi, pastikan Anda memiliki:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/Mikasenz/UAS_PK.git
+   git clone https://github.com/YourUsername/UAS_PK.git
    cd UAS_PK
    ```
 
@@ -306,9 +306,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Mikasenz**
-- 🌐 GitHub: [@Mikasenz](https://github.com/Mikasenz)
-- 📧 Email: mikasenz@example.com
+**[Your Name]**
+- 🌐 GitHub: [@YourUsername](https://github.com/YourUsername)
+- 📧 Email: [your-email@domain.com]
 - 💼 LinkedIn: [Your LinkedIn Profile]
 
 ## 🙏 Acknowledgments
@@ -326,15 +326,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📊 Project Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mikasenz&repo=UAS_PK&theme=dark" alt="Repository Stats">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YourUsername&repo=UAS_PK&theme=dark" alt="Repository Stats">
 </div>
 
 ### Activity
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Mikasenz/UAS_PK)
-![GitHub last commit](https://img.shields.io/github/last-commit/Mikasenz/UAS_PK)
-![GitHub issues](https://img.shields.io/github/issues/Mikasenz/UAS_PK)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Mikasenz/UAS_PK)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/YourUsername/UAS_PK)
+![GitHub last commit](https://img.shields.io/github/last-commit/YourUsername/UAS_PK)
+![GitHub issues](https://img.shields.io/github/issues/YourUsername/UAS_PK)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/YourUsername/UAS_PK)
 
 ## 🌟 Show Your Support
 
