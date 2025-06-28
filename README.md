@@ -1,4 +1,4 @@
-# UAS_PK - Ujian Akhir Semester Pemrograman Komputer
+# UAS_PK - Ujian Akhir Semester Penalaran Komputer
 
 <div align="center">
   <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python" alt="Python">
