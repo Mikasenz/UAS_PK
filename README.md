@@ -300,28 +300,6 @@ sphinx-build -b html docs/ docs/_build/html/
 - [ ] Multi-user support
 - [ ] Cloud deployment
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**[Your Name]**
-- 🌐 GitHub: [@YourUsername](https://github.com/YourUsername)
-- 📧 Email: [your-email@domain.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-
-## 🙏 Acknowledgments
-
-- 👨‍🏫 **Dosen Pembimbing** - Terima kasih atas bimbingan selama mata kuliah
-- 👥 **Tim Pengembang** - Rekan-rekan yang membantu dalam pengembangan
-- 📚 **Referensi** - Sumber pembelajaran dan dokumentasi yang digunakan
-
-### Special Thanks
-
-- [Python.org](https://python.org) - For the amazing language
-- [Flask](https://flask.palletsprojects.com/) - For the web framework
-- [Stack Overflow](https://stackoverflow.com) - For endless solutions
 
 ## 📊 Project Statistics
 
